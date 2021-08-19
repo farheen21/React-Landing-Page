@@ -1,6 +1,7 @@
 
 import styled from 'styled-components' ;
 import {Link as LinkR} from 'rect-router-dom';
+import { Link } from 'react-scroll';
 
 export const Nav = styled.nav`
 background: #000;
@@ -28,6 +29,10 @@ padding: 0  24px;
 max-width: 1100px ;
 `
 
-export const Navlogo = styled{LinkR}'
+export const Navlogo = styled{LinkR}`
+color: #fff;
+justify-self: flex-start;
 
-'
+
+
+`
