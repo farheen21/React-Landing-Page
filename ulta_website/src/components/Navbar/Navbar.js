@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Nav , NavbarContainer} from './NavbarElements';
+import { Nav , NavbarContainer , NavLogo , NavIcon} from './NavbarElements';
 
 
 const Navbar = () => {
@@ -8,7 +8,11 @@ const Navbar = () => {
        <>
        <Nav>
        <NavbarContainer>
-
+         <NavLogo  to="/">
+           <NavIcon>
+               ULTRA
+           </NavIcon>
+         </NavLogo>
        </NavbarContainer>
        </Nav>
        </>
