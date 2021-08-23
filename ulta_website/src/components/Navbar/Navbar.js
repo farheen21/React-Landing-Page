@@ -23,7 +23,7 @@ const Navbar = () => {
            {click ?  <FaTimes /> : <FaBars />}
          </MobileIcon>
          <NavMenu onClick={handleClicked} >
-           
+           <NavItem>Home</NavItem>
          </NavMenu>
        </NavbarContainer>
        </Nav>
