@@ -23,13 +23,15 @@ height: 88px;
 
 ${Container}
 `;
-export const NavLogo  = styled{Link} `
+export const NavLogo  = styled(Link)`
 color : #fff;
-justify-self : flex-start,
-font-size : 2rem;
+cursor : pointer;
+justify-self : flex-start;
+font-size: 2rem ; 
 text-decoration : none;
-display: flex;
-align-item: center;
+align-items: center;
 `;
 
-export const NavIcon = styled{FaMagneto}``;
+
+export const NavIcon = styled(FaMagneto)`
+margin-right: 0.5rem`;
