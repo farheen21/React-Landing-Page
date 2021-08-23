@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import { Container } from '../../globalStyles';
 import {Link} from 'react-router-dom';
-import { FaMagneto} from 'react-icons/fa';
+import { FaMagento} from 'react-icons/fa';
 
 export const Nav = styled.nav`
 background: #101522;
@@ -29,9 +29,25 @@ cursor : pointer;
 justify-self : flex-start;
 font-size: 2rem ; 
 text-decoration : none;
+display : flex;
 align-items: center;
 `;
 
 
-export const NavIcon = styled(FaMagneto)`
+export const NavIcon = styled(FaMagento)`
 margin-right: 0.5rem`;
+
+export const MobileIcon = styled.div`
+
+display : none ; 
+
+@media screen and (max-width : 960px) {
+    display : block;
+    position : absolute ; 
+    top : 0 ; 
+    right : 0 ;
+    transform : translate(-100% , 60%);
+    font-size : 1.8rem ;
+    cursor : pointer ;
+}
+`;

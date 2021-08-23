@@ -1,20 +1,30 @@
 
-import React from 'react';
-import { Nav , NavbarContainer , NavLogo , NavIcon} from './NavbarElements';
+import React , {useState} from 'react';
+import {  FaBars , FaTimes } from 'react-icons/fa';
+import {IconContext} from 'react-icons/lib';
+import { Nav , NavbarContainer , NavLogo , NavIcon , MobileIcon} from './NavbarElements';
 
 
 const Navbar = () => {
+
+   const [click , setClick] = useState(false)
+
+   const handleClicked = () => setClick(!click);
     return (
        <>
+       <IconContext.Provider value= {{color : '#fff'}}>
        <Nav>
        <NavbarContainer>
          <NavLogo  to="/">
-           <NavIcon>
+           <NavIcon />
                ULTRA
-           </NavIcon>
          </NavLogo>
+         <MobileIcon onClick={handleClicked} >
+           {click ?  <FaTimes /> : <FaBars />}
+         </MobileIcon>
        </NavbarContainer>
        </Nav>
+       </IconContext.Provider>
        </>
     )
 }
