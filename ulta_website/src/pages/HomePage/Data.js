@@ -1,4 +1,4 @@
 
 export const homeObjOne = {
-    lightBg = false ;
+    lightBg : false
 };
