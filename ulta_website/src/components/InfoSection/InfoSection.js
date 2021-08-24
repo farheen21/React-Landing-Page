@@ -1,7 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Button, Container } from '../../globalStyles';
 import { InfoSec , InfoRow , InfoColumn , TextWrapper ,TopLine , Heading , Subtitle} from './InfoSectionElements';
-const InfoSection = ( { lightBg ,imgStart , lightTopLine ,lightTextDesc}) => {
+const InfoSection = ( { lightBg ,imgStart , lightTopLine ,lightTextDesc ,buttonLabel , description , headLine , lightText, topLine , primary}) => {
     return (
        <>
        <InfoSec lightBg={lightBg}>
