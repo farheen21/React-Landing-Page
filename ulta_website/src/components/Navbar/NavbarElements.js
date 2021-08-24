@@ -112,7 +112,7 @@ height : 100%;
 `;
 
 export const NavItemBtn = styled.li`
-@media screen and (max-width : 960xp){
+@media screen and (max-width : 960px){
     display : flex;
     justify-content: center;
     align-items: center ;
