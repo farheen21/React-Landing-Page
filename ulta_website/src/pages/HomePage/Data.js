@@ -10,4 +10,7 @@ export const homeObjOne = {
     lightText: true,
     topLine: 'Marketing Agency',
     primary : true ,
+    img : require('../../images/infoSec.svg'),
+    alt :'Image',
+    start : '',
 };
