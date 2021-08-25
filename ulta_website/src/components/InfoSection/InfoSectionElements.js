@@ -13,7 +13,7 @@ display: flex;
 margin : 0 - 15px -15px -15px;
 flex-wrap : wrap ;
 align-items : center ;
-flex-direction : ${({ imageStart }) => (imageStart ? 'row-reverse' : 'row')};
+flex-direction : ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
 `;
 
 export const InfoColumn = styled.div

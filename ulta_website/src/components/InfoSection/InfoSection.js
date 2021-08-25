@@ -7,7 +7,7 @@ const InfoSection = ( { lightBg ,imgStart , lightTopLine ,lightTextDesc ,buttonL
        <>
        <InfoSec lightBg={lightBg}>
          <Container>
-           <InfoRow imagStart={imgStart}>
+           <InfoRow imgStart={imgStart}>
              <InfoColumn>
              <TextWrapper>
                  <TopLine lightTopLine= {lightTopLine}>{topLine} </TopLine>
@@ -22,7 +22,7 @@ const InfoSection = ( { lightBg ,imgStart , lightTopLine ,lightTextDesc ,buttonL
              </InfoColumn>
              <InfoColumn>
                < ImgWrapper start={start}> 
-                 <Img src={img} alt={alt}></Img>
+                 <Img src={ img } alt={alt}></Img>
                </ImgWrapper>
              </InfoColumn>
            </InfoRow>
