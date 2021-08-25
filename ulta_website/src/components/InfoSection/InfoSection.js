@@ -12,7 +12,6 @@ const InfoSection = ( { lightBg ,imgStart , lightTopLine ,lightTextDesc ,buttonL
              <TextWrapper>
                  <TopLine lightTopLine= {lightTopLine}>{topLine} </TopLine>
                  <Heading lightText={lightText}>{headLine}</Heading>
-                 <Subtitle lightTextDes={lightTextDesc}>{description}</Subtitle>
                  <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                  <Link to="/sign-up">
                    <Button big fontBig primary={primary}>
