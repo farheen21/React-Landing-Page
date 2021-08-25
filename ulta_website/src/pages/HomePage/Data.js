@@ -50,7 +50,7 @@ export const homeObjThree = {
 
 export const homeObjFour = {
     lightBg : false,
-    imgStart : '',
+    imgStart : 'start',
     lightTopLine : true,
     lightTextDesc: true,
     buttonLabel:  'Get Started',
@@ -61,5 +61,5 @@ export const homeObjFour = {
     primary : true ,
     img : require('../../images/svg-3.svg').default,
     alt :'Image',
-    start : '',
+    start : 'true',
 };
