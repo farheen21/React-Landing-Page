@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Ultra Website](https://github.com/farheen21/React-Landing-Page/tree/main/ulta_website#built-with)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
