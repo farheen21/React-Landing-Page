@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# React Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ultra - Ultra Marketing Agency Landing Page
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `yarn start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-### `yarn test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-### `yarn build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Group 1](https://user-images.githubusercontent.com/60287642/130945712-3b6a6e85-8f3c-4764-a51b-f5a986dbc24e.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### `yarn eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Built with
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Wireframing and Sketching
+- [Figma Designs](https://www.figma.com/)
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### What I learned
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Styled Components
+2. Responsive Design with React
+3. Figma markups
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Stack OverFlow](https://stackoverflow.com/questions/59070216/webpack-file-loader-outputs-object-module) - This helped me alot for mutliple bugs occuring during rendering the images through require() method.
+- [Reacts Router Dom](https://reactrouter.com/web/guides/quick-start) - Offcourse without this Iwont be able to finish this project.
+- [Using styled-components with React](https://dev.to/shubambhasin/using-styled-components-with-react-46d7)-This is an amazing article which helped me finally understand how Styled Component interact with React. I'd recommend it to anyone.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+- Website - [Farheen Khan](https://github.com/farheen21)
+- Twitter - [@farheenfirdous5](https://twitter.com/FarheenFirdous5)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I Learned how to make this website from [Brian](https://github.com/briancodex) ,He is really a great tutor,and I would like to say huge thanks to him.
